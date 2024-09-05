@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C3E50;
+    padding: 1rem 2rem;
+}
+
+.logo {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+.pro{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.user-info .avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+h1{
+    margin-left: 50px;
+}
+.navel{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+}
+.navel-1{
+    margin-left: 50px;
+}
+img{
+    height: 250px;
+    width: 250px;
+    border-radius: 250px;
+    object-fit: cover;
+}
+.task-item{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.task-title {
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(83, 83, 83);
+}
+.task-date{
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+}
+ul{
+    list-style: none;
+    width: 550px;
+}
+hr{
+    width: 90%;
+    margin-top: 50px;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #2C3E50;
+    color: #fff;
+    bottom: 0;
+    width: 98%;
+    margin-top: 100px;
+}
